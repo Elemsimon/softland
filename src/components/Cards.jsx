@@ -1,11 +1,12 @@
 import React from 'react'
+import steps from '../assets/img/steps.svg';
 
 const Cards = () => {
   return (
     <section id="cards" className="cards section">
       <div className="container">
         <div className="text-center mb-4 steps-img" data-aos="zoom-out">
-          <img src="/src/assets/img/steps.svg" alt />
+          <img src={steps} alt />
         </div>
         <div className="row gy-4">
           <div className="col-lg-4" data-aos="fade-up" data-aos-delay={100}>
